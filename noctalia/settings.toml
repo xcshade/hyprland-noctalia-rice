@@ -1,0 +1,161 @@
+[bar.default]
+background_opacity = 0.84999998100101948
+border = "surface_variant"
+border_width = 0.5
+capsule_radius = 16
+capsule_thickness = 0.64999998919665813
+concave_edge_corners = false
+end = [
+    "media",
+    "tray",
+    "notifications",
+    "clipboard",
+    "bluetooth",
+    "volume",
+    "brightness",
+    "battery",
+    "control-center",
+    "session",
+    "recorder"
+]
+font_family = "Open Sans SemiBold"
+font_weight = 600
+margin_edge = 5
+margin_ends = 50
+panel_overlap = 0
+radius = 80
+scale = 1.0500000081956387
+start = [ "launcher" ]
+thickness = 35
+
+[[control_center.shortcuts]]
+type = "caffeine"
+
+[[control_center.shortcuts]]
+type = "bluetooth"
+
+[[control_center.shortcuts]]
+type = "nightlight"
+
+[[control_center.shortcuts]]
+type = "notification"
+
+[[control_center.shortcuts]]
+type = "power_profile"
+
+[desktop_widgets]
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[location]
+address = "Russia, Ivanovo"
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@DP-1", "lockscreen-login-box@HDMI-A-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 960.0
+    cy = 961.0
+    output = "DP-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_password_hint = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 960.0
+    cy = 961.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_password_hint = true
+
+[notification]
+background_opacity = 0.99999997764825821
+
+[plugins]
+enabled = []
+
+[shell]
+lang = "ru"
+polkit_agent = true
+show_location = false
+
+    [shell.panel]
+    transparency_mode = "soft"
+
+    [shell.shadow]
+    alpha = 0.50999998860061169
+
+[theme]
+builtin = "Tokyo-Night"
+source = "wallpaper"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "hyprland", "kitty", "qt" ]
+    community_ids = [ "zen-browser", "telegram", "yazi" ]
+
+[wallpaper]
+directory = "/home/shade/wallpapers"
+
+    [wallpaper.default]
+    path = "/home/shade/wallpapers/wallpaperflare.com_wallpaper.jpg"
+
+    [wallpaper.last]
+    path = "/home/shade/wallpapers/wallpaperflare.com_wallpaper.jpg"
+
+    [wallpaper.monitors.DP-1]
+    path = "/home/shade/wallpapers/wallpaperflare.com_wallpaper.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/shade/wallpapers/wallpaperflare.com_wallpaper.jpg"
+
+[widget.clock]
+anchor = true
+
+[widget.launcher]
+custom_image = "/home/shade/logos/void_bg.png"
+
+[widget.recorder]
+type = "noctalia/screen_recorder:recorder"
+
+[widget.tray]
+drawer = true
