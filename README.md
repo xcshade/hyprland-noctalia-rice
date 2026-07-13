@@ -1,7 +1,7 @@
-### hyprland-noctalia-rice
-# My personal desktop rice.
+# hyprland-noctalia-rice
+## My personal desktop rice.
 
-# The scripts are not mine! Original repository – sarodscommits/hyprland-infinitie-desktop-v2
+### The scripts are not mine! Original repository – sarodscommits/hyprland-infinitie-desktop-v2
 
 
 
