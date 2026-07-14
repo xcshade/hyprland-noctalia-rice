@@ -158,4 +158,4 @@ custom_image = "/home/shade/logos/void_bg.png"
 type = "noctalia/screen_recorder:recorder"
 
 [widget.tray]
-drawer = true
+drawer = true 
