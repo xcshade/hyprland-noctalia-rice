@@ -26,7 +26,7 @@ hl.config({
 	},
 
 	decoration = {
-		rounding = 0,
+		rounding = 5,
 		blur = {
 			enabled = true,
 			size = 3,
@@ -53,6 +53,7 @@ hl.window_rule({
 	float = true,
 	tile = false,
 	opaque = true,
+	opacity = "0.9 0.9",
 })
 
 --cursor
