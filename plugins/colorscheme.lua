@@ -10,7 +10,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "olive-crt", -- Пример: "gruvbox"
+      colorscheme = "olive-crt", 
     },
   },
 }
