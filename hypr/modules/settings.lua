@@ -1,4 +1,4 @@
---monitors
+-- monitors
 
 hl.monitor({
 	output = "DP-1",
@@ -7,7 +7,7 @@ hl.monitor({
 	scale = 1,
 })
 
---main settings
+-- main settings
 
 hl.config({
 	general = {
@@ -46,7 +46,7 @@ hl.config({
 	},
 })
 
---window rule
+-- window rule
 
 hl.window_rule({
 	match = { class = ".*" },
@@ -56,7 +56,7 @@ hl.window_rule({
 	opacity = "0.9 0.9",
 })
 
---cursor
+-- cursor
 
 hl.env("XCURSOR_THEME", "capitaine-cursors")
 hl.env("XCURSOR_SIZE", "24")
