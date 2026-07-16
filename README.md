@@ -21,3 +21,4 @@ Wayland-1.25.0_1
 Hyprland 0.55.4 (Libs: Hyprgraphics, Hyprutils, Hyprcursor, Hyprlang, Aquamarine)
 Noctalia Shell v5.0.0
 python python-evdev bash jq
+JetBrainsMono Fonts
